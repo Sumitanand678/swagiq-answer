@@ -19,7 +19,7 @@ BOT_OWNER_ROLE = 'RUNNER' # change to what you need
  
 oot_channel_id_list = ["610827397285019695",  #galaxy
 "595639769904447502",
-"535675285211971584",
+"786590925966934026",
 "446448437119025154",
 "585618493093969923",
 "570794448808837131"
@@ -270,7 +270,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('NjA4ODE1NzQ1OTU4MjgxMjI2.XVJ7kg.WrKObdQc3rs0PD6eE4w0JnDap0g',
+    loop.create_task(selfbot.start('OTA1NDgwNzA4Njg3MDI4MjU0.YYKsnw.yRftT8Jw0yKSrnMSlBJX7EZjtac',
                                    bot=False))
     loop.run_forever()
 
