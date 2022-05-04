@@ -270,7 +270,7 @@ def selfbot_process(update_event, answer_scores):
     selfbot = SelfBot(update_event, answer_scores)
 
     loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('OTA1NDgwNzA4Njg3MDI4MjU0.YYKsnw.yRftT8Jw0yKSrnMSlBJX7EZjtac',
+    loop.create_task(selfbot.start('NzE0MDIyNDg3MjE3NjY4MTM2.YgiccQ.VBeEVwKfLeogBhCLc8rn829sjuE',
                                    bot=False))
     loop.run_forever()
 
